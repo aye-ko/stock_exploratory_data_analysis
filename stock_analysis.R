@@ -5,12 +5,13 @@ if(!require("tidyverse"))install.packages("tidyverse", dependencies = TRUE)
 if(!require("tidyquant"))install.packages("tidyquant", dependencies = TRUE)
 if(!require("e1071"))install.packages("e1071", dependencies = TRUE)
 if(!require("corrplot"))install.packages("corrplot", dependencies = TRUE)
-
+if(!require("DT"))install.packages("DT")
 # Load Libraries
 library(tidyverse)
 library(tidyquant)
 library(e1071)
 library(corrplot)
+library(DT)
 
 #Create required Global Variables
 tickers <- c("AAPL", "MSFT", "JPM", "V", "JNJ", "PFE", "WMT", "NKE", "XOM", "VZ", "T", "NEE")

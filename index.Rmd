@@ -241,7 +241,7 @@ The categories are:
 **Best Bang per Buck:** These are low risk, high reward, stable stocks with high returns, and are predictable for long term investment.
 **High Performers:** Perform Very Well, ideal also for long term investments. 
 **High Risk-Reward:** Prone to drastic rises and falls, might be suitable for day traders, and short options trading. 
-**Average Performers:** Not much to write home about, decent for portfolio diversity
+**Average Performers:** Not much to write home about, decent for portfolio diversity, maybe dividens options
 **Below Average Performers:** Perform below the 30 day U.S Treasure Bond, not worth the risk, buy bonds instead. 
 **Disaster-Avoid:** Steady losses on average, might be worth shorting as it is in steady decline. 
 
