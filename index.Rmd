@@ -237,15 +237,36 @@ corrplot(corr_data,
 
 ## BOTTOM LINE UP FRONT (BLUF)
 Stocks: AAPL, MSFT, JPM, V, JNJ, PFE, WMT, NKE, XOM, VZ, T, NEE 
-The categories are:
-**Best Bang per Buck:** These are low risk, high reward, stable stocks with high returns, and are predictable for long term investment.
-**High Performers:** Perform Very Well, ideal also for long term investments. 
-**High Risk-Reward:** Prone to drastic rises and falls, might be suitable for day traders, and short options trading. 
-**Average Performers:** Not much to write home about, decent for portfolio diversity, maybe dividens options
-**Below Average Performers:** Perform below the 30 day U.S Treasure Bond, not worth the risk, buy bonds instead. 
-**Disaster-Avoid:** Steady losses on average, might be worth shorting as it is in steady decline. 
+## Key Findings
 
-After performing an Exploratory Analysis on the above stocks, the discoveries and recommendations are as follows:
+The analysis revealed six distinct stock segments:
+
+**Best Bang per Buck:**
+- These are low-risk, high-reward, stable stocks with high returns, and are predictable for long-term investment.
+
+**High Performers:** 
+- Perform very well, ideal also for long-term investments.
+
+**High Risk-Reward:** 
+- Prone to drastic rises and falls, might be suitable for day traders and short-term options trading.
+
+**Average Performers:**
+- Not much to write home about, decent for portfolio diversity.
+
+**Below Average Performers:** 
+- Perform below the 30-day U.S Treasury Bond, not worth the risk, buy bonds instead.
+
+**Disaster-Avoid:**
+- Steady losses on average.
+  
+## Business Recommendations
+
+Based on findings, I recommend the following
+- Investing in the Best Bang per Buck for long-term investment growth, as well as High Performers.
+- High Risk-Reward stocks have massive highs and lows, but are otherwise calm. This means you can be both bearish and bullish, if timed right, for high profit margins.
+- Average Performers are predictable in their ups and downs, and are a candidate for day traders. 
+- Below average performers, I have no recommendation on, but if they offer dividends, it might be worth the investment. Further research is needed.
+- Disaster stocks are suitable for options shorts. They are on the decline and have been for the past year. 
 
 
 ```{r stocks_ratings,echo = FALSE}
