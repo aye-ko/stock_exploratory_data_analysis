@@ -5,10 +5,10 @@
 **Objective:** Conduct exploratory data analysis on 12 random stocks, to see if correlation is the same in sectors, and what is a good indication of mean returns, and make recommendations for different investor types. 
 
 **Key Results:**
-- Identified 6 distinct investor types using k-means clustering
+- Identified six distinct investor types using k-means clustering
 - Discovered a stock that is a candidate for an options short in NKE
 
-**Skills Demonstrated:** R Programming | Statistical Analysis | K-Means Clustering | Hypothesis Testing | Data Visualization | Investment Strategy
+**Skills Demonstrated:** R Programming | Statistical Analysis | K-Means Clustering | API Integration | Rolling Averages | Error Handling | Data Visualization | Investment Strategy
 
 ---
 
@@ -17,8 +17,8 @@
 **Goal:** Conduct exploratory data analysis and translate findings into actionable business insights.
 
 **Audience:**
-- Analytics team(me_
-- INvestors
+- Analytics team (me)
+- Investors
 
 **Ask:**
 - What stocks perform the best?
@@ -34,31 +34,30 @@
 
 The analysis revealed six distinct stock segments:
 
-** Best Bang per Buck: **
+**Best Bang per Buck:**
 - These are low-risk, high-reward, stable stocks with high returns, and are predictable for long-term investment.
 
-** High Performers:** 
-- Perform Very Well, ideal also for long-term investments.
+**High Performers:** 
+- Perform very well, ideal also for long-term investments.
 
-** High Risk-Reward:** 
+**High Risk-Reward:** 
 - Prone to drastic rises and falls, might be suitable for day traders and short-term options trading.
 
-** Average Performers:**
+**Average Performers:**
 - Not much to write home about, decent for portfolio diversity.
 
-** Below Average Performers:** 
+**Below Average Performers:** 
 - Perform below the 30-day U.S Treasury Bond, not worth the risk, buy bonds instead.
 
-** Disaster-Avoid:**
-- Steady losses on average, might be worth shorting as it is in steady decline.
+**Disaster-Avoid:**
+- Steady losses on average.
   
 ## Business Recommendations
 
-- Based on findings, I recommend investing in the Big Best Bang per Buck for long-term investment growth, as well as High Performers.
-- Disaster stocks should be considered for options short.
+- Based on findings, I recommend investing in the Best Bang per Buck for long-term investment growth, as well as High Performers.
 - High Risk-Reward stocks have massive highs and lows, but are otherwise calm. This means you can be both bearish and bullish, if timed right, for high profit margins.
 - Average Performers are predictable in their ups and downs, and are a candidate for day traders. 
-- Below average performers, I have no recommendation on, but if they offer dividends, it might be worth the investment. Further research is needed
+- Below average performers, I have no recommendation on, but if they offer dividends, it might be worth the investment. Further research is needed.
 - Disaster stocks are suitable for options shorts. They are on the decline and have been for the past year. 
 ---
 
@@ -80,11 +79,8 @@ The analysis revealed six distinct stock segments:
 
 **3. Stock Segmentation**
 - Standardized all numeric features using z-scores
-- Applied k-means clustering (k=4) to identify stock groups
+- Applied k-means clustering (k=6) to identify stock groups
 
-**4. Statistical Validation**
-- Chi-square test: X² = 140.24, df = 9, p < 0.001
-- Confirms customer segments have significantly different shopping preferences
 
 ---
 
@@ -146,11 +142,9 @@ The analysis will generate an HTML report with all visualizations and findings.
 
 **Steps taken to ensure data integrity:**
 1. Created a backup of the original raw data
-2. Checked for and removed null values
-3. Verified no duplicate customer records
-4. Validated data types for all columns
-5. Checked for spelling errors in categorical variables
-6. Trimmed extra spaces from text fields
+2. Validated data types for all columns
+
+
 
 **Documentation:** All cleaning steps are documented in the R Markdown file with inline comments.
 
