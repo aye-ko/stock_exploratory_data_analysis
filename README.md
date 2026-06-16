@@ -104,7 +104,7 @@ The analysis revealed six distinct stock segments:
 
 ## Project Files
 
-- **Live Report:** [[View Analysis](https://aye-ko.github.io/stock_exploratory_data_analysis/)]
+- **Live Report:** [[View Analysis](https://aye-ko.github.io/stock_exploratory_data_analysis/)
 - **R Markdown:** [index.Rmd]()
 - **R Script:** [stock_analysis.R]()
 
